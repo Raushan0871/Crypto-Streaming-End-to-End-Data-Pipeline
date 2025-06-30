@@ -58,6 +58,7 @@ def run(argv=None):
             |  'Decode' >> beam.Map(lambda x: x.decode('utf-8'))
             |  'Parse and Transform' >> beam.ParDo(ParseCryptoJson())
         )
+
         
         # Write to BigQuery
 
