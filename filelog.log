@@ -1,0 +1,604 @@
+2025-06-29 19:58:33,470 Starting new HTTPS connection (1): rest.coincap.io:443
+2025-06-29 19:58:34,677 https://rest.coincap.io:443 "GET /v3/assets?apiKey=42eff6bf653f608aed9580443ff6bf8371fce5652facdcefc7ebfba9e0708f4c HTTP/1.1" 200 None
+2025-06-29 19:58:35,113 Fetching crypto data from: https://rest.coincap.io/v3/assets?apiKey=42eff6bf653f608aed9580443ff6bf8371fce5652facdcefc7ebfba9e0708f4c
+2025-06-29 19:58:35,117 Total data printed: 100
+2025-06-29 19:58:35,117 The crypto_data are: {'id': 'bitcoin', 'rank': '1', 'symbol': 'BTC', 'name': 'Bitcoin', 'supply': '19885065.0000000000000000', 'maxSupply': '21000000.0000000000000000', 'marketCapUsd': '2150353498885.2066537094929600', 'volumeUsd24Hr': '4840974085.1174376486526556', 'priceUsd': '108139.1234519578715840', 'changePercent24Hr': '0.7943676743438736', 'vwap24Hr': '107660.3394711779670253', 'explorer': 'https://blockchain.info/', 'tokens': {}}
+2025-06-29 19:58:35,117 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:35,358 The message is publishing into pubsub
+2025-06-29 19:58:35,368 Commit thread is waking up
+2025-06-29 19:58:35,750 gRPC Publish took 0.3828237056732178 seconds.
+2025-06-29 19:58:35,752 The message is published into pubsub
+2025-06-29 19:58:35,752 The crypto_data are: {'id': 'ethereum', 'rank': '2', 'symbol': 'ETH', 'name': 'Ethereum', 'supply': '120717845.3560650000000000', 'maxSupply': None, 'marketCapUsd': '295595829337.4759334167343306', 'volumeUsd24Hr': '3295147574.2015912947254776', 'priceUsd': '2448.6506403887274756', 'changePercent24Hr': '0.8314658012216819', 'vwap24Hr': '2442.1868032023064595', 'explorer': 'https://etherscan.io/', 'tokens': {}}
+2025-06-29 19:58:35,752 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:35,812 The message is publishing into pubsub
+2025-06-29 19:58:35,823 Commit thread is waking up
+2025-06-29 19:58:36,013 gRPC Publish took 0.19043397903442383 seconds.
+2025-06-29 19:58:36,013 The message is published into pubsub
+2025-06-29 19:58:36,013 The crypto_data are: {'id': 'tether', 'rank': '3', 'symbol': 'USDT', 'name': 'Tether', 'supply': '157576926188.2346200000000000', 'maxSupply': None, 'marketCapUsd': '157691985470.9295734123270503', 'volumeUsd24Hr': '13427772622.8984731840812013', 'priceUsd': '1.0007301784942645', 'changePercent24Hr': '-0.0681076738563151', 'vwap24Hr': '0.9997977584235155', 'explorer': 'https://www.omniexplorer.info/asset/31', 'tokens': {'1': ['0xdac17f958d2ee523a2206206994597c13d831ec7'], '10': ['0x94b008aa00579c1307b0ef2c499ad98a8ce58e58'], '56': ['0x55d398326f99059ff775485246999027b3197955'], '101': ['es9vmfrzacermjfrf4h2fyd4kconky11mcce8benwnyb'], '137': ['0xc2132d05d31c914a87c6611c10748aeb04b58e8f'], '42161': ['0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9']}}
+2025-06-29 19:58:36,013 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:36,147 The message is publishing into pubsub
+2025-06-29 19:58:36,158 Commit thread is waking up
+2025-06-29 19:58:36,376 gRPC Publish took 0.21792340278625488 seconds.
+2025-06-29 19:58:36,376 The message is published into pubsub
+2025-06-29 19:58:36,376 The crypto_data are: {'id': 'xrp', 'rank': '4', 'symbol': 'XRP', 'name': 'XRP', 'supply': '59005546715.0000000000000000', 'maxSupply': '100000000000.0000000000000000', 'marketCapUsd': '129099574644.2987853047246985', 'volumeUsd24Hr': '583256973.0525037988681626', 'priceUsd': '2.1879226925539179', 'changePercent24Hr': '-0.3361837869902664', 'vwap24Hr': '2.1900521680097215', 'explorer': 'https://xrpcharts.ripple.com/#/graph/', 'tokens': {'56': ['0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe']}}
+2025-06-29 19:58:36,376 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:36,501 The message is publishing into pubsub
+2025-06-29 19:58:36,520 Commit thread is waking up
+2025-06-29 19:58:36,715 gRPC Publish took 0.19501638412475586 seconds.
+2025-06-29 19:58:36,715 The message is published into pubsub
+2025-06-29 19:58:36,715 The crypto_data are: {'id': 'binance-coin', 'rank': '5', 'symbol': 'BNB', 'name': 'BNB', 'supply': '144006830.0000000000000000', 'maxSupply': '144006830.0000000000000000', 'marketCapUsd': '93649663003.7988740379715430', 'volumeUsd24Hr': '184332723.2971037904982680', 'priceUsd': '650.3140372147548421', 'changePercent24Hr': '0.5847325849005533', 'vwap24Hr': '648.7493893688488958', 'explorer': 'https://etherscan.io/token/0xB8c77482e45F1F44dE1745F52C74426C631bDD52', 'tokens': {'1': ['0xb8c77482e45f1f44de1745f52c74426c631bdd52'], '56': ['0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee']}}
+2025-06-29 19:58:36,715 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:36,779 The message is publishing into pubsub
+2025-06-29 19:58:36,799 Commit thread is waking up
+2025-06-29 19:58:36,997 gRPC Publish took 0.19828391075134277 seconds.
+2025-06-29 19:58:36,997 The message is published into pubsub
+2025-06-29 19:58:36,997 The crypto_data are: {'id': 'solana', 'rank': '6', 'symbol': 'SOL', 'name': 'Solana', 'supply': '534475770.2405452000000000', 'maxSupply': None, 'marketCapUsd': '81382607143.1371550026877404', 'volumeUsd24Hr': '1409743827.1561132309996518', 'priceUsd': '152.2662236054409834', 'changePercent24Hr': '3.5125868191385092', 'vwap24Hr': '150.2132880591245756', 'explorer': 'https://explorer.solana.com/', 'tokens': {'101': ['so11111111111111111111111111111111111111112']}}
+2025-06-29 19:58:36,997 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:37,050 The message is publishing into pubsub
+2025-06-29 19:58:37,060 Commit thread is waking up
+2025-06-29 19:58:37,283 gRPC Publish took 0.22194766998291016 seconds.
+2025-06-29 19:58:37,283 The message is published into pubsub
+2025-06-29 19:58:37,284 The crypto_data are: {'id': 'usd-coin', 'rank': '7', 'symbol': 'USDC', 'name': 'USDC', 'supply': '61712075700.2277300000000000', 'maxSupply': None, 'marketCapUsd': '61720615520.8187490680433311', 'volumeUsd24Hr': '1929111888.1816270106229560', 'priceUsd': '1.0001383816780447', 'changePercent24Hr': '-0.0213244600431198', 'vwap24Hr': '0.9998038957219605', 'explorer': 'https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'tokens': {'1': ['0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'], '10': ['0x0b2c639c533813f4aa9d7837caf62653d097ff85'], '56': ['0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d'], '101': ['epjfwdd5aufqssqem2qn1xzybapc8g4weggkzwytdt1v'], '137': ['0x3c499c542cef5e3811e1192ce70d8cc03d5c3359', '0x078d782b760474a361dda0af3839290b0ef57ad6'], '8453': ['0x833589fcd6edb6e08f4c7c32d4f71b54bda02913'], '42161': ['0xaf88d065e77c8cc2239327c5edb3a432268e5831'], '43114': ['0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e']}}
+2025-06-29 19:58:37,285 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:37,359 The message is publishing into pubsub
+2025-06-29 19:58:37,369 Commit thread is waking up
+2025-06-29 19:58:37,581 gRPC Publish took 0.21064233779907227 seconds.
+2025-06-29 19:58:37,583 The message is published into pubsub
+2025-06-29 19:58:37,583 The crypto_data are: {'id': 'tron', 'rank': '8', 'symbol': 'TRX', 'name': 'TRON', 'supply': '94802172004.2421700000000000', 'maxSupply': None, 'marketCapUsd': '26092450475.8351449265648120', 'volumeUsd24Hr': '148391300.5363716171951858', 'priceUsd': '0.2752305134387382', 'changePercent24Hr': '-0.1735453185246302', 'vwap24Hr': '0.2751572790277748', 'explorer': 'https://tronscan.org/#/', 'tokens': {'1': ['0x50327c6c5a14dcade707abad2e27eb517df87ab5'], '56': ['0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3']}}
+2025-06-29 19:58:37,583 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:37,688 The message is publishing into pubsub
+2025-06-29 19:58:37,712 Commit thread is waking up
+2025-06-29 19:58:37,931 gRPC Publish took 0.21815061569213867 seconds.
+2025-06-29 19:58:37,944 The message is published into pubsub
+2025-06-29 19:58:37,944 The crypto_data are: {'id': 'dogecoin', 'rank': '9', 'symbol': 'DOGE', 'name': 'Dogecoin', 'supply': '149888156383.7052000000000000', 'maxSupply': None, 'marketCapUsd': '24715790993.8288408527452319', 'volumeUsd24Hr': '240703436.8472729151474156', 'priceUsd': '0.1648948895639080', 'changePercent24Hr': '1.6004384483542807', 'vwap24Hr': '0.1638404613555030', 'explorer': 'http://dogechain.info/chain/Dogecoin', 'tokens': {'56': ['0xba2ae424d960c26247dd6c32edc70b295c744c43']}}
+2025-06-29 19:58:37,944 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:38,013 The message is publishing into pubsub
+2025-06-29 19:58:38,023 Commit thread is waking up
+2025-06-29 19:58:38,236 gRPC Publish took 0.21271991729736328 seconds.
+2025-06-29 19:58:38,236 The message is published into pubsub
+2025-06-29 19:58:38,236 The crypto_data are: {'id': 'steth', 'rank': '10', 'symbol': 'STETH', 'name': 'Lido Staked ETH', 'supply': '9094473.8433303000000000', 'maxSupply': None, 'marketCapUsd': '22225015737.1488934103672618', 'volumeUsd24Hr': '5155299.5333346276114511', 'priceUsd': '2443.7934640329151837', 'changePercent24Hr': '0.7995132411471988', 'vwap24Hr': '2429.0754135101202711', 'explorer': 'https://etherscan.io/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84', 'tokens': {'1': ['0xae7ab96520de3a18e5e111b5eaab095312d7fe84']}}
+2025-06-29 19:58:38,236 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:38,353 The message is publishing into pubsub
+2025-06-29 19:58:38,363 Commit thread is waking up
+2025-06-29 19:58:38,583 gRPC Publish took 0.21990966796875 seconds.
+2025-06-29 19:58:38,583 The message is published into pubsub
+2025-06-29 19:58:38,583 The crypto_data are: {'id': 'cardano', 'rank': '11', 'symbol': 'ADA', 'name': 'Cardano', 'supply': '35376156272.8423700000000000', 'maxSupply': '45000000000.0000000000000000', 'marketCapUsd': '19953090476.5982899034061357', 'volumeUsd24Hr': '192789855.1103452981460030', 'priceUsd': '0.5640265246090603', 'changePercent24Hr': '0.7629183337136857', 'vwap24Hr': '0.5641741888261315', 'explorer': 'https://cardanoexplorer.com/', 'tokens': {'56': ['0x3ee2200efb3400fabb9aacf31297cbdd1d435d47']}}
+2025-06-29 19:58:38,583 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:38,693 The message is publishing into pubsub
+2025-06-29 19:58:38,710 Commit thread is waking up
+2025-06-29 19:58:38,922 gRPC Publish took 0.21125173568725586 seconds.
+2025-06-29 19:58:38,922 The message is published into pubsub
+2025-06-29 19:58:38,922 The crypto_data are: {'id': 'wrapped-bitcoin', 'rank': '12', 'symbol': 'WBTC', 'name': 'Wrapped Bitcoin', 'supply': '129018.2396818800000000', 'maxSupply': None, 'marketCapUsd': '13944642156.7859353291561805', 'volumeUsd24Hr': '49306851.2595915951180185', 'priceUsd': '108082.7190881631149633', 'changePercent24Hr': '0.8747032777570644', 'vwap24Hr': '107378.0432910159278254', 'explorer': 'https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599', 'tokens': {'1': ['0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'], '10': ['0x68f180fcce6836688e9084f035309e29bf0a2095'], '101': ['3nz9jmvbmgaqocybic2c7lqcjscmgsaz6vqqtdzcqmjh'], '137': ['0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'], '42161': ['0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f'], '43114': ['0x408d4cd0adb7cebd1f1a1c33a0ba2098e1295bab']}}
+2025-06-29 19:58:38,922 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:39,042 The message is publishing into pubsub
+2025-06-29 19:58:39,052 Commit thread is waking up
+2025-06-29 19:58:39,316 gRPC Publish took 0.26390886306762695 seconds.
+2025-06-29 19:58:39,316 The message is published into pubsub
+2025-06-29 19:58:39,323 The crypto_data are: {'id': 'hyperliquid', 'rank': '13', 'symbol': 'HYPE', 'name': 'Hyperliquid', 'supply': '333928180.0000000000000000', 'maxSupply': '1000000000.0000000000000000', 'marketCapUsd': '13087027132.6196238188726580', 'volumeUsd24Hr': '134862606.1011229082698371', 'priceUsd': '39.1911432351100881', 'changePercent24Hr': '6.7549575667529257', 'vwap24Hr': '37.9127813468375489', 'explorer': 'https://app.hyperliquid.xyz/explorer/token/0x0d01dc56dcaaca66ad901c959b4011ec', 'tokens': {}}
+2025-06-29 19:58:39,323 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:39,395 The message is publishing into pubsub
+2025-06-29 19:58:39,405 Commit thread is waking up
+2025-06-29 19:58:39,631 gRPC Publish took 0.2258460521697998 seconds.
+2025-06-29 19:58:39,634 The message is published into pubsub
+2025-06-29 19:58:39,634 The crypto_data are: {'id': 'bitcoin-cash', 'rank': '14', 'symbol': 'BCH', 'name': 'Bitcoin Cash', 'supply': '19890390.6250000000000000', 'maxSupply': '21000000.0000000000000000', 'marketCapUsd': '9803861363.7611276380666016', 'volumeUsd24Hr': '113740595.1321976657139024', 'priceUsd': '492.8943603268790825', 'changePercent24Hr': '0.2972226414251897', 'vwap24Hr': '491.9665363957519409', 'explorer': 'https://blockchair.com/bitcoin-cash/blocks', 'tokens': {'56': ['0x8ff795a6f4d97e7887c79bea79aba5cc76444adf']}}
+2025-06-29 19:58:39,634 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:39,789 The message is publishing into pubsub
+2025-06-29 19:58:39,799 Commit thread is waking up
+2025-06-29 19:58:40,015 gRPC Publish took 0.21587681770324707 seconds.
+2025-06-29 19:58:40,015 The message is published into pubsub
+2025-06-29 19:58:40,015 The crypto_data are: {'id': 'sui', 'rank': '15', 'symbol': 'SUI', 'name': 'Sui', 'supply': '3396671135.3644433000000000', 'maxSupply': '10000000000.0000000000000000', 'marketCapUsd': '9572802388.9259796095470378', 'volumeUsd24Hr': '427356972.4911961145140047', 'priceUsd': '2.8182894391095866', 'changePercent24Hr': '2.7447616547212843', 'vwap24Hr': '2.7951999936162723', 'explorer': 'https://suiexplorer.com/', 'tokens': {}}
+2025-06-29 19:58:40,015 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:40,087 The message is publishing into pubsub
+2025-06-29 19:58:40,097 Commit thread is waking up
+2025-06-29 19:58:40,343 gRPC Publish took 0.24529242515563965 seconds.
+2025-06-29 19:58:40,343 The message is published into pubsub
+2025-06-29 19:58:40,343 The crypto_data are: {'id': 'chainlink', 'rank': '16', 'symbol': 'LINK', 'name': 'Chainlink', 'supply': '678099970.4527867000000000', 'maxSupply': None, 'marketCapUsd': '9074595388.0392723387338087', 'volumeUsd24Hr': '103949318.5137517689358738', 'priceUsd': '13.3823857594034491', 'changePercent24Hr': '1.8248099911604631', 'vwap24Hr': '13.3517206951497804', 'explorer': 'https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca', 'tokens': {'1': ['0x514910771af9ca656af840dff83e8264ecf986ca'], '10': ['0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6'], '56': ['0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd'], '101': ['cwe8jptuyhdctzywpte1o5dfqfdjzwkc9wkz6rsjqudg'], '137': ['0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39'], '42161': ['0xf97f4df75117a78c1a5a0dbb814af92458539fb4'], '43114': ['0x5947bb275c521040051d82396192181b413227a3']}}
+2025-06-29 19:58:40,346 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:40,389 The message is publishing into pubsub
+2025-06-29 19:58:40,407 Commit thread is waking up
+2025-06-29 19:58:40,642 gRPC Publish took 0.23485279083251953 seconds.
+2025-06-29 19:58:40,658 The message is published into pubsub
+2025-06-29 19:58:40,658 The crypto_data are: {'id': 'unus-sed-leo', 'rank': '17', 'symbol': 'LEO', 'name': 'UNUS SED LEO', 'supply': '923158450.9000000000000000', 'maxSupply': None, 'marketCapUsd': '8283822221.1087865047698540', 'volumeUsd24Hr': '4023551.8896032365892611', 'priceUsd': '8.9733481971949378', 'changePercent24Hr': '0.6634429568296980', 'vwap24Hr': '9.1071306655229704', 'explorer': 'https://eospark.com/account/bitfinexleo1', 'tokens': {'1': ['0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3']}}
+2025-06-29 19:58:40,658 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:40,706 The message is publishing into pubsub
+2025-06-29 19:58:40,729 Commit thread is waking up
+2025-06-29 19:58:40,944 gRPC Publish took 0.2151930332183838 seconds.
+2025-06-29 19:58:40,944 The message is published into pubsub
+2025-06-29 19:58:40,944 The crypto_data are: {'id': 'weth', 'rank': '18', 'symbol': 'WETH', 'name': 'Wrapped ETH', 'supply': '3375317.5926469000000000', 'maxSupply': None, 'marketCapUsd': '8264973584.7501696661538986', 'volumeUsd24Hr': '193358076.7478781849488712', 'priceUsd': '2448.6506403887274756', 'changePercent24Hr': '0.8314658012216819', 'vwap24Hr': None, 'explorer': 'https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'tokens': {'1': ['0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'], '10': ['0x4200000000000000000000000000000000000006'], '56': ['0x2170ed0880ac9a755fd29b2688956bd959f933f8'], '101': ['2fpytwczlug1mdrwsyop4d6s1tm7hakhyrjknb5w6pxk'], '130': ['0x4200000000000000000000000000000000000006'], '137': ['0x7ceb23fd6bc0add59e62ac25578270cff1b9f619'], '8453': ['0x4200000000000000000000000000000000000006'], '42161': ['0x82af49447d8a07e3bd95bd0d56f35241523fbab1'], '43114': ['0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab']}}
+2025-06-29 19:58:40,957 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:41,008 The message is publishing into pubsub
+2025-06-29 19:58:41,025 Commit thread is waking up
+2025-06-29 19:58:41,241 gRPC Publish took 0.21605443954467773 seconds.
+2025-06-29 19:58:41,241 The message is published into pubsub
+2025-06-29 19:58:41,241 The crypto_data are: {'id': 'avalanche', 'rank': '19', 'symbol': 'AVAX', 'name': 'Avalanche', 'supply': '422068594.1785131700000000', 'maxSupply': '715748719.0000000000000000', 'marketCapUsd': '7589107000.3611363639164752', 'volumeUsd24Hr': '78279290.5097714497453307', 'priceUsd': '17.9807431896990111', 'changePercent24Hr': '1.7836333228109300', 'vwap24Hr': '17.9423499632073615', 'explorer': 'https://avascan.info/', 'tokens': {'56': ['0x1ce0c2827e2ef14d5c4f29a091d735a204794041'], '43114': ['0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7']}}
+2025-06-29 19:58:41,241 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:41,315 The message is publishing into pubsub
+2025-06-29 19:58:41,325 Commit thread is waking up
+2025-06-29 19:58:41,529 gRPC Publish took 0.20411086082458496 seconds.
+2025-06-29 19:58:41,535 The message is published into pubsub
+2025-06-29 19:58:41,535 The crypto_data are: {'id': 'stellar', 'rank': '20', 'symbol': 'XLM', 'name': 'Stellar', 'supply': '31230770040.6983870000000000', 'maxSupply': '50001806812.0000000000000000', 'marketCapUsd': '7447493382.8310239257384462', 'volumeUsd24Hr': '33961854.1556722807703277', 'priceUsd': '0.2384665307043605', 'changePercent24Hr': '0.2088932383259417', 'vwap24Hr': '0.2387718970633796', 'explorer': 'https://dashboard.stellar.org/', 'tokens': {}}
+2025-06-29 19:58:41,535 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:41,634 The message is publishing into pubsub
+2025-06-29 19:58:41,651 Commit thread is waking up
+2025-06-29 19:58:41,841 gRPC Publish took 0.19040966033935547 seconds.
+2025-06-29 19:58:41,841 The message is published into pubsub
+2025-06-29 19:58:41,842 The crypto_data are: {'id': 'toncoin', 'rank': '21', 'symbol': 'TON', 'name': 'Toncoin', 'supply': '2467906983.9227770000000000', 'maxSupply': None, 'marketCapUsd': '7106983189.6176070034889597', 'volumeUsd24Hr': '48225427.1922224384597609', 'priceUsd': '2.8797613669867514', 'changePercent24Hr': '1.4714760598846075', 'vwap24Hr': '2.8571662928627671', 'explorer': None, 'tokens': {'1': ['0x582d872a1b094fc48f5de31d3b73f2d9be47def1'], '56': ['0x76a797a59ba2c17726896976b7b3747bfd1d220f']}}
+2025-06-29 19:58:41,842 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:41,947 The message is publishing into pubsub
+2025-06-29 19:58:41,964 Commit thread is waking up
+2025-06-29 19:58:42,169 gRPC Publish took 0.20547819137573242 seconds.
+2025-06-29 19:58:42,169 The message is published into pubsub
+2025-06-29 19:58:42,169 The crypto_data are: {'id': 'bitcoin-bep2', 'rank': '22', 'symbol': 'BTCB', 'name': 'Bitcoin BEP2', 'supply': '65213.1894237000000000', 'maxSupply': None, 'marketCapUsd': '7054222200.4357529758248161', 'volumeUsd24Hr': '8245244.5321615141910958', 'priceUsd': '108171.7097840959677697', 'changePercent24Hr': '0.8807539356912469', 'vwap24Hr': None, 'explorer': 'https://explorer.binance.org/asset/BTCB-1DE', 'tokens': {'56': ['0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c']}}
+2025-06-29 19:58:42,179 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:42,225 The message is publishing into pubsub
+2025-06-29 19:58:42,235 Commit thread is waking up
+2025-06-29 19:58:42,434 gRPC Publish took 0.19922304153442383 seconds.
+2025-06-29 19:58:42,434 The message is published into pubsub
+2025-06-29 19:58:42,434 The crypto_data are: {'id': 'shiba-inu', 'rank': '23', 'symbol': 'SHIB', 'name': 'Shiba Inu', 'supply': '589248107061815.8000000000000000', 'maxSupply': '589552695333683.0000000000000000', 'marketCapUsd': '6840914942.6904988781334527', 'volumeUsd24Hr': '34715857.5467090696947432', 'priceUsd': '0.0000116095662603', 'changePercent24Hr': '1.9266129085473070', 'vwap24Hr': '0.0000115322517813', 'explorer': 'https://etherscan.io/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce', 'tokens': {'1': ['0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce'], '8453': ['0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce']}}
+2025-06-29 19:58:42,434 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:42,532 The message is publishing into pubsub
+2025-06-29 19:58:42,542 Commit thread is waking up
+2025-06-29 19:58:42,735 gRPC Publish took 0.192979097366333 seconds.
+2025-06-29 19:58:42,735 The message is published into pubsub
+2025-06-29 19:58:42,735 The crypto_data are: {'id': 'litecoin', 'rank': '24', 'symbol': 'LTC', 'name': 'Litecoin', 'supply': '76019451.9834713500000000', 'maxSupply': '84000000.0000000000000000', 'marketCapUsd': '6590212081.2573396876275871', 'volumeUsd24Hr': '110936935.5425715862369046', 'priceUsd': '86.6911285112950697', 'changePercent24Hr': '1.0333812500955793', 'vwap24Hr': '86.5135536267494875', 'explorer': 'http://explorer.litecoin.net/chain/Litecoin', 'tokens': {'56': ['0x4338665cbb7b2485a8855a139b75d5e34ab0db94']}}
+2025-06-29 19:58:42,735 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:42,783 The message is publishing into pubsub
+2025-06-29 19:58:42,809 Commit thread is waking up
+2025-06-29 19:58:43,041 gRPC Publish took 0.23212337493896484 seconds.
+2025-06-29 19:58:43,042 The message is published into pubsub
+2025-06-29 19:58:43,042 The crypto_data are: {'id': 'hedera-hashgraph', 'rank': '25', 'symbol': 'HBAR', 'name': 'Hedera', 'supply': '42379959712.0694500000000000', 'maxSupply': '50000000000.0000000000000000', 'marketCapUsd': '6294540854.9060938139020792', 'volumeUsd24Hr': '38671636.4885562765402334', 'priceUsd': '0.1485263529666231', 'changePercent24Hr': '1.4121398462519022', 'vwap24Hr': '0.1478278579809350', 'explorer': 'https://app.dragonglass.me/hedera/home', 'tokens': {}}
+2025-06-29 19:58:43,042 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:43,130 The message is publishing into pubsub
+2025-06-29 19:58:43,141 Commit thread is waking up
+2025-06-29 19:58:43,368 gRPC Publish took 0.22694993019104004 seconds.
+2025-06-29 19:58:43,368 The message is published into pubsub
+2025-06-29 19:58:43,368 The crypto_data are: {'id': 'monero', 'rank': '26', 'symbol': 'XMR', 'name': 'Monero', 'supply': '18446744.0737095500000000', 'maxSupply': None, 'marketCapUsd': '5751891139.0827870207705439', 'volumeUsd24Hr': '73807732.4468160024396445', 'priceUsd': '311.8106434446840487', 'changePercent24Hr': '1.4900765042409298', 'vwap24Hr': '312.5470986300588291', 'explorer': 'http://moneroblocks.info/', 'tokens': {}}
+2025-06-29 19:58:43,368 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:43,461 The message is publishing into pubsub
+2025-06-29 19:58:43,472 Commit thread is waking up
+2025-06-29 19:58:43,696 gRPC Publish took 0.2240614891052246 seconds.
+2025-06-29 19:58:43,696 The message is published into pubsub
+2025-06-29 19:58:43,696 The crypto_data are: {'id': 'bitget-token-new', 'rank': '27', 'symbol': 'BGB', 'name': 'Bitget Token', 'supply': '1169993089.2000000000000000', 'maxSupply': None, 'marketCapUsd': '5426025108.8653611459152417', 'volumeUsd24Hr': '14220506.2414942668712065', 'priceUsd': '4.6376556912618054', 'changePercent24Hr': '-0.0832779346207234', 'vwap24Hr': '4.6845663122152749', 'explorer': 'https://etherscan.io/token/0x54D2252757e1672EEaD234D27B1270728fF90581', 'tokens': {'1': ['0x54d2252757e1672eead234d27b1270728ff90581']}}
+2025-06-29 19:58:43,696 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:43,762 The message is publishing into pubsub
+2025-06-29 19:58:43,772 Commit thread is waking up
+2025-06-29 19:58:43,957 gRPC Publish took 0.18476319313049316 seconds.
+2025-06-29 19:58:43,957 The message is published into pubsub
+2025-06-29 19:58:43,957 The crypto_data are: {'id': 'multi-collateral-dai', 'rank': '28', 'symbol': 'DAI', 'name': 'Dai', 'supply': '5365382702.6648720000000000', 'maxSupply': None, 'marketCapUsd': '5365993773.9227839695891449', 'volumeUsd24Hr': '34211321.1556380148638741', 'priceUsd': '1.0001138914578467', 'changePercent24Hr': '-0.0262183437901175', 'vwap24Hr': '0.9996363527665132', 'explorer': 'https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359', 'tokens': {'1': ['0x6b175474e89094c44da98b954eedeac495271d0f']}}
+2025-06-29 19:58:43,957 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:44,002 The message is publishing into pubsub
+2025-06-29 19:58:44,012 Commit thread is waking up
+2025-06-29 19:58:44,204 gRPC Publish took 0.19181060791015625 seconds.
+2025-06-29 19:58:44,204 The message is published into pubsub
+2025-06-29 19:58:44,204 The crypto_data are: {'id': 'ethena-usde', 'rank': '29', 'symbol': 'USDE', 'name': 'Ethena USDe', 'supply': '5299560568.0220840000000000', 'maxSupply': None, 'marketCapUsd': '5301372834.0510964808685638', 'volumeUsd24Hr': '22629612.9974881894060239', 'priceUsd': '1.0003419653395317', 'changePercent24Hr': '0.0062775427820017', 'vwap24Hr': None, 'explorer': 'etherscan.io', 'tokens': {'1': ['0x4c9edd5852cd905f086c759e8383e09bff1e68b3'], '56': ['0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34']}}
+2025-06-29 19:58:44,204 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:44,252 The message is publishing into pubsub
+2025-06-29 19:58:44,263 Commit thread is waking up
+2025-06-29 19:58:44,499 gRPC Publish took 0.23643779754638672 seconds.
+2025-06-29 19:58:44,499 The message is published into pubsub
+2025-06-29 19:58:44,499 The crypto_data are: {'id': 'polkadot', 'rank': '30', 'symbol': 'DOT', 'name': 'Polkadot', 'supply': '1522267060.0000000000000000', 'maxSupply': None, 'marketCapUsd': '5210132375.6109175980241220', 'volumeUsd24Hr': '41973090.6217771328820443', 'priceUsd': '3.4226138845906037', 'changePercent24Hr': '1.9592666262690121', 'vwap24Hr': '3.4047093315926716', 'explorer': 'https://polkascan.io/polkadot', 'tokens': {'56': ['0x7083609fce4d1d8dc0c979aab8c869ea2c873402']}}
+2025-06-29 19:58:44,502 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:44,579 The message is publishing into pubsub
+2025-06-29 19:58:44,589 Commit thread is waking up
+2025-06-29 19:58:44,794 gRPC Publish took 0.20488882064819336 seconds.
+2025-06-29 19:58:44,796 The message is published into pubsub
+2025-06-29 19:58:44,796 The crypto_data are: {'id': 'uniswap', 'rank': '31', 'symbol': 'UNI', 'name': 'Uniswap', 'supply': '628739836.7100000000000000', 'maxSupply': None, 'marketCapUsd': '4505722967.1987403218594225', 'volumeUsd24Hr': '153575225.9940063722732284', 'priceUsd': '7.1662756264590886', 'changePercent24Hr': '1.9839115261816562', 'vwap24Hr': '7.1277194370017655', 'explorer': 'https://etherscan.io/token/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', 'tokens': {'1': ['0x1f9840a85d5af5bf1d1762f925bdaddc4201f984'], '10': ['0x6fd9d7ad17242c41f7131d257212c54a0e816691'], '56': ['0xbf5140a22578168fd562dccf235e5d43a02ce9b1'], '130': ['0x8f187aa05619a017077f5308904739877ce9ea21'], '42161': ['0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0'], '43114': ['0x8ebaf22b6f053dffeaf46f4dd9efa95d89ba8580']}}
+2025-06-29 19:58:44,796 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:44,911 The message is publishing into pubsub
+2025-06-29 19:58:44,921 Commit thread is waking up
+2025-06-29 19:58:45,117 gRPC Publish took 0.1959836483001709 seconds.
+2025-06-29 19:58:45,117 The message is published into pubsub
+2025-06-29 19:58:45,117 The crypto_data are: {'id': 'aave', 'rank': '32', 'symbol': 'AAVE', 'name': 'Aave', 'supply': '15172813.9540381900000000', 'maxSupply': None, 'marketCapUsd': '4124510701.9968318923032164', 'volumeUsd24Hr': '151137605.9457205387554905', 'priceUsd': '271.8355813556329916', 'changePercent24Hr': '6.9651392498114967', 'vwap24Hr': '263.9847301523761344', 'explorer': 'https://etherscan.io/token/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03', 'tokens': {'1': ['0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9'], '56': ['0xfb6115445bff7b52feb98650c87f44907e58f802'], '137': ['0xd6df932a45c0f255f85145f286ea0b292b21c90b'], '43114': ['0x8ce2dee54bb9921a2ae0a63dbb2df8ed88b91dd9']}}
+2025-06-29 19:58:45,117 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:45,222 The message is publishing into pubsub
+2025-06-29 19:58:45,232 Commit thread is waking up
+2025-06-29 19:58:45,507 gRPC Publish took 0.2745940685272217 seconds.
+2025-06-29 19:58:45,507 The message is published into pubsub
+2025-06-29 19:58:45,507 The crypto_data are: {'id': 'pepe', 'rank': '33', 'symbol': 'PEPE', 'name': 'Pepe', 'supply': '420689899653543.5600000000000000', 'maxSupply': '420690000000000.0000000000000000', 'marketCapUsd': '4078231498.4570391940357226', 'volumeUsd24Hr': '264887375.8230804397313108', 'priceUsd': '0.0000096941512069', 'changePercent24Hr': '3.4546330052880251', 'vwap24Hr': '0.0000095162115552', 'explorer': 'https://etherscan.io/token/0x6982508145454ce325ddbe47a25d4ec3d2311933', 'tokens': {'1': ['0x6982508145454ce325ddbe47a25d4ec3d2311933'], '42161': ['0x25d887ce7a35172c62febfd67a1856f20faebb00']}}
+2025-06-29 19:58:45,507 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:45,555 The message is publishing into pubsub
+2025-06-29 19:58:45,565 Commit thread is waking up
+2025-06-29 19:58:46,006 gRPC Publish took 0.4413726329803467 seconds.
+2025-06-29 19:58:46,006 The message is published into pubsub
+2025-06-29 19:58:46,006 The crypto_data are: {'id': 'pi', 'rank': '34', 'symbol': 'PI', 'name': 'Pi', 'supply': '7611992890.0358970000000000', 'maxSupply': '100000000000.0000000000000000', 'marketCapUsd': '4049254016.3430257010376955', 'volumeUsd24Hr': '51214712.6807162128177663', 'priceUsd': '0.5319571464187127', 'changePercent24Hr': '0.5979776154067981', 'vwap24Hr': None, 'explorer': 'https://blockexplorer.minepi.com/', 'tokens': {}}
+2025-06-29 19:58:46,006 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:46,055 The message is publishing into pubsub
+2025-06-29 19:58:46,071 Commit thread is waking up
+2025-06-29 19:58:46,254 gRPC Publish took 0.18315935134887695 seconds.
+2025-06-29 19:58:46,254 The message is published into pubsub
+2025-06-29 19:58:46,254 The crypto_data are: {'id': 'aptos', 'rank': '35', 'symbol': 'APT', 'name': 'Aptos', 'supply': '644246478.9983524000000000', 'maxSupply': None, 'marketCapUsd': '3104931605.3247814386381240', 'volumeUsd24Hr': '81850670.9173317475423104', 'priceUsd': '4.8194778032038294', 'changePercent24Hr': '1.0574864098467015', 'vwap24Hr': '4.8073059305401594', 'explorer': 'https://explorer.aptoslabs.com/', 'tokens': {}}
+2025-06-29 19:58:46,254 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:46,366 The message is publishing into pubsub
+2025-06-29 19:58:46,377 Commit thread is waking up
+2025-06-29 19:58:46,588 gRPC Publish took 0.2111959457397461 seconds.
+2025-06-29 19:58:46,588 The message is published into pubsub
+2025-06-29 19:58:46,588 The crypto_data are: {'id': 'bittensor', 'rank': '36', 'symbol': 'TAO', 'name': 'Bittensor', 'supply': '8909481.0000000000000000', 'maxSupply': '21000000.0000000000000000', 'marketCapUsd': '3056588768.5059499077260928', 'volumeUsd24Hr': '51387990.5114301105122046', 'priceUsd': '343.0714727946498688', 'changePercent24Hr': '5.1652847103653424', 'vwap24Hr': '333.0542199991702572', 'explorer': 'https://bittensor.com/scan', 'tokens': {}}
+2025-06-29 19:58:46,588 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:46,640 The message is publishing into pubsub
+2025-06-29 19:58:46,650 Commit thread is waking up
+2025-06-29 19:58:46,846 gRPC Publish took 0.195770263671875 seconds.
+2025-06-29 19:58:46,860 The message is published into pubsub
+2025-06-29 19:58:46,860 The crypto_data are: {'id': 'okb', 'rank': '37', 'symbol': 'OKB', 'name': 'OKB', 'supply': '60000000.0000000000000000', 'maxSupply': None, 'marketCapUsd': '3002284696.4720819700000000', 'volumeUsd24Hr': '1686679.0558227340186816', 'priceUsd': '50.0380782745346995', 'changePercent24Hr': '-0.1205095383450499', 'vwap24Hr': '50.1019009850433272', 'explorer': 'https://etherscan.io/token/0x75231f58b43240c9718dd58b4967c5114342a86c', 'tokens': {'1': ['0x75231f58b43240c9718dd58b4967c5114342a86c']}}
+2025-06-29 19:58:46,860 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:46,926 The message is publishing into pubsub
+2025-06-29 19:58:46,951 Commit thread is waking up
+2025-06-29 19:58:47,189 gRPC Publish took 0.23844647407531738 seconds.
+2025-06-29 19:58:47,189 The message is published into pubsub
+2025-06-29 19:58:47,189 The crypto_data are: {'id': 'near-protocol', 'rank': '38', 'symbol': 'NEAR', 'name': 'Near Protocol', 'supply': '1229966348.0000000000000000', 'maxSupply': None, 'marketCapUsd': '2629381972.1020163916397248', 'volumeUsd24Hr': '47701215.7094207394208242', 'priceUsd': '2.1377674083340176', 'changePercent24Hr': '1.4410394830307885', 'vwap24Hr': '2.1475397915809240', 'explorer': 'https://explorer.nearprotocol.com/', 'tokens': {}}
+2025-06-29 19:58:47,189 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:47,285 The message is publishing into pubsub
+2025-06-29 19:58:47,301 Commit thread is waking up
+2025-06-29 19:58:47,530 gRPC Publish took 0.22640705108642578 seconds.
+2025-06-29 19:58:47,530 The message is published into pubsub
+2025-06-29 19:58:47,530 The crypto_data are: {'id': 'internet-computer', 'rank': '39', 'symbol': 'ICP', 'name': 'Internet Computer', 'supply': '534957118.2952121500000000', 'maxSupply': None, 'marketCapUsd': '2620125958.4014124530830749', 'volumeUsd24Hr': '18092543.7362700340444519', 'priceUsd': '4.8978242718802654', 'changePercent24Hr': '3.4090760013627613', 'vwap24Hr': '4.8438314745955590', 'explorer': 'https://www.dfinityexplorer.org/#/', 'tokens': {}}
+2025-06-29 19:58:47,530 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:47,637 The message is publishing into pubsub
+2025-06-29 19:58:47,647 Commit thread is waking up
+2025-06-29 19:58:47,834 gRPC Publish took 0.1860189437866211 seconds.
+2025-06-29 19:58:47,834 The message is published into pubsub
+2025-06-29 19:58:47,834 The crypto_data are: {'id': 'crypto-com-coin', 'rank': '40', 'symbol': 'CRO', 'name': 'Cronos', 'supply': '31103009842.4575230000000000', 'maxSupply': '30263013692.0000000000000000', 'marketCapUsd': '2526109230.9782231906204450', 'volumeUsd24Hr': '4447706.1415400836548576', 'priceUsd': '0.0812175170111649', 'changePercent24Hr': '0.3042330367831310', 'vwap24Hr': '0.0809918922434351', 'explorer': 'https://etherscan.io/token/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b', 'tokens': {'1': ['0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b'], '101': ['dvjmymvexgkxaixgkpzqthlog98nc7hsu7eanzsdcboa']}}
+2025-06-29 19:58:47,834 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:47,930 The message is publishing into pubsub
+2025-06-29 19:58:47,955 Commit thread is waking up
+2025-06-29 19:58:48,145 gRPC Publish took 0.18976521492004395 seconds.
+2025-06-29 19:58:48,152 The message is published into pubsub
+2025-06-29 19:58:48,152 The crypto_data are: {'id': 'ethereum-classic', 'rank': '41', 'symbol': 'ETC', 'name': 'Ethereum Classic', 'supply': '152508023.2808319600000000', 'maxSupply': '210700000.0000000000000000', 'marketCapUsd': '2511869992.8762046370640932', 'volumeUsd24Hr': '10538250.1488198533749605', 'priceUsd': '16.4704121057997488', 'changePercent24Hr': '1.9304442972288403', 'vwap24Hr': '16.3291712829130067', 'explorer': 'http://gastracker.io/', 'tokens': {}}
+2025-06-29 19:58:48,152 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:48,284 The message is publishing into pubsub
+2025-06-29 19:58:48,294 Commit thread is waking up
+2025-06-29 19:58:48,490 gRPC Publish took 0.19456028938293457 seconds.
+2025-06-29 19:58:48,493 The message is published into pubsub
+2025-06-29 19:58:48,493 The crypto_data are: {'id': 'ondo-finance', 'rank': '42', 'symbol': 'ONDO', 'name': 'Ondo', 'supply': '3159107529.0000000000000000', 'maxSupply': None, 'marketCapUsd': '2432793986.1844881119634216', 'volumeUsd24Hr': '56856252.1707873018550517', 'priceUsd': '0.7700890089532904', 'changePercent24Hr': '2.7362870265376504', 'vwap24Hr': '0.7626231747362514', 'explorer': 'https://etherscan.io/token/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3', 'tokens': {'1': ['0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3']}}
+2025-06-29 19:58:48,495 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:48,626 The message is publishing into pubsub
+2025-06-29 19:58:48,637 Commit thread is waking up
+2025-06-29 19:58:48,814 gRPC Publish took 0.1773085594177246 seconds.
+2025-06-29 19:58:48,814 The message is published into pubsub
+2025-06-29 19:58:48,814 The crypto_data are: {'id': 'mantle', 'rank': '43', 'symbol': 'MNT', 'name': 'Mantle', 'supply': '3365794382.8368406000000000', 'maxSupply': '6219316795.0000000000000000', 'marketCapUsd': '2061004085.5509411070184457', 'volumeUsd24Hr': '96179348.4208305800197084', 'priceUsd': '0.6123380846021365', 'changePercent24Hr': '2.5768743497387492', 'vwap24Hr': '0.6097632326921693', 'explorer': 'https://mantlescan.xyz/', 'tokens': {'1': ['0x3c3a81e81dc49a522a592e7622a7e711c06bf354']}}
+2025-06-29 19:58:48,826 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:48,946 The message is publishing into pubsub
+2025-06-29 19:58:48,963 Commit thread is waking up
+2025-06-29 19:58:49,156 gRPC Publish took 0.19263935089111328 seconds.
+2025-06-29 19:58:49,156 The message is published into pubsub
+2025-06-29 19:58:49,156 The crypto_data are: {'id': 'kaspa', 'rank': '44', 'symbol': 'KAS', 'name': 'Kaspa', 'supply': '26380183390.1905300000000000', 'maxSupply': '28704026601.0000000000000000', 'marketCapUsd': '2038696864.2028030371783505', 'volumeUsd24Hr': '41471377.6060759667898224', 'priceUsd': '0.0772813757223876', 'changePercent24Hr': '1.4485499339625759', 'vwap24Hr': '0.0776461111432375', 'explorer': 'https://explorer.kaspa.org/', 'tokens': {}}
+2025-06-29 19:58:49,156 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:49,258 The message is publishing into pubsub
+2025-06-29 19:58:49,274 Commit thread is waking up
+2025-06-29 19:58:49,493 gRPC Publish took 0.21806645393371582 seconds.
+2025-06-29 19:58:49,493 The message is published into pubsub
+2025-06-29 19:58:49,493 The crypto_data are: {'id': 'gatetoken', 'rank': '45', 'symbol': 'GT', 'name': 'GateToken', 'supply': '122910588.0000000000000000', 'maxSupply': '300000000.0000000000000000', 'marketCapUsd': '1917953929.7901800844813036', 'volumeUsd24Hr': '3471158.3185352708939296', 'priceUsd': '15.6044646844434597', 'changePercent24Hr': '0.2322425133364349', 'vwap24Hr': '15.6536448984290894', 'explorer': None, 'tokens': {'1': ['0xe66747a101bff2dba3697199dcce5b743b454759']}}
+2025-06-29 19:58:49,495 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:49,562 The message is publishing into pubsub
+2025-06-29 19:58:49,572 Commit thread is waking up
+2025-06-29 19:58:49,762 gRPC Publish took 0.1899726390838623 seconds.
+2025-06-29 19:58:49,762 The message is published into pubsub
+2025-06-29 19:58:49,762 The crypto_data are: {'id': 'polygon-ecosystem-token', 'rank': '46', 'symbol': 'POL', 'name': 'POL (prev. MATIC)', 'supply': '10458909885.5859760000000000', 'maxSupply': None, 'marketCapUsd': '1907074095.2485879579553722', 'volumeUsd24Hr': '19516941.2360092283851724', 'priceUsd': '0.1823396621742421', 'changePercent24Hr': '2.1150732291755987', 'vwap24Hr': '0.1779166582620364', 'explorer': 'https://etherscan.io/token/0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6', 'tokens': {'1': ['0x455e53cbb86018ac2b8092fdcd39d8444affc3f6']}}
+2025-06-29 19:58:49,762 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:49,846 The message is publishing into pubsub
+2025-06-29 19:58:49,857 Commit thread is waking up
+2025-06-29 19:58:50,038 gRPC Publish took 0.180891752243042 seconds.
+2025-06-29 19:58:50,040 The message is published into pubsub
+2025-06-29 19:58:50,040 The crypto_data are: {'id': 'official-trump', 'rank': '47', 'symbol': 'TRUMP', 'name': 'Trump Official', 'supply': '199999347.2985940000000000', 'maxSupply': '999999993.4500000000000000', 'marketCapUsd': '1812345439.1524566090545634', 'volumeUsd24Hr': '47767137.3425277292643365', 'priceUsd': '9.0617567688692024', 'changePercent24Hr': '0.6446586040642373', 'vwap24Hr': '9.0750624015623563', 'explorer': 'https://solscan.io/token/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN', 'tokens': {'101': ['6p6xghyf7aee6tzksmfsko444wqop15icusqi2jfgipn']}}
+2025-06-29 19:58:50,040 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:50,212 The message is publishing into pubsub
+2025-06-29 19:58:50,222 Commit thread is waking up
+2025-06-29 19:58:50,397 gRPC Publish took 0.17352747917175293 seconds.
+2025-06-29 19:58:50,397 The message is published into pubsub
+2025-06-29 19:58:50,397 The crypto_data are: {'id': 'vechain', 'rank': '48', 'symbol': 'VET', 'name': 'VeChain', 'supply': '85985041177.0000000000000000', 'maxSupply': '86712634466.0000000000000000', 'marketCapUsd': '1811210630.7039483577711474', 'volumeUsd24Hr': '11594040.5609478331064307', 'priceUsd': '0.0210642526410562', 'changePercent24Hr': '2.7848836361193650', 'vwap24Hr': '0.0210113206516280', 'explorer': 'https://explore.veforge.com/', 'tokens': {}}
+2025-06-29 19:58:50,397 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:50,496 The message is publishing into pubsub
+2025-06-29 19:58:50,506 Commit thread is waking up
+2025-06-29 19:58:50,669 gRPC Publish took 0.16234707832336426 seconds.
+2025-06-29 19:58:50,670 The message is published into pubsub
+2025-06-29 19:58:50,670 The crypto_data are: {'id': 'fetch', 'rank': '49', 'symbol': 'FET', 'name': 'Artificial Superintelligence Alliance', 'supply': '2520000000.0000000000000000', 'maxSupply': '2630547141.0000000000000000', 'marketCapUsd': '1730331892.7893822320000000', 'volumeUsd24Hr': '41975987.2021385209212672', 'priceUsd': '0.6866396399957866', 'changePercent24Hr': '3.0411086517276043', 'vwap24Hr': '0.6859271845331814', 'explorer': 'https://etherscan.io/token/0x1d287cc25dad7ccaf76a26bc660c5f7c8e2a05bd', 'tokens': {'1': ['0xaea46a60368a7bd060eec7df8cba43b7ef41ad85'], '56': ['0x031b41e504677879370e9dbcf937283a8691fa7f']}}
+2025-06-29 19:58:50,670 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:50,804 The message is publishing into pubsub
+2025-06-29 19:58:50,814 Commit thread is waking up
+2025-06-29 19:58:51,016 gRPC Publish took 0.201401948928833 seconds.
+2025-06-29 19:58:51,016 The message is published into pubsub
+2025-06-29 19:58:51,016 The crypto_data are: {'id': 'render', 'rank': '50', 'symbol': 'RENDER', 'name': 'Render', 'supply': '518128769.0562826400000000', 'maxSupply': '644168762.0000000000000000', 'marketCapUsd': '1685264830.8710931874706503', 'volumeUsd24Hr': '37308026.4847807596544545', 'priceUsd': '3.2525984494947594', 'changePercent24Hr': '2.6593172104299327', 'vwap24Hr': '3.2424397446518460', 'explorer': None, 'tokens': {'1': ['0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24'], '137': ['0x61299774020da444af134c82fa83e3810b309991']}}
+2025-06-29 19:58:51,016 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:51,150 The message is publishing into pubsub
+2025-06-29 19:58:51,160 Commit thread is waking up
+2025-06-29 19:58:51,352 gRPC Publish took 0.19156980514526367 seconds.
+2025-06-29 19:58:51,352 The message is published into pubsub
+2025-06-29 19:58:51,352 The crypto_data are: {'id': 'sei', 'rank': '51', 'symbol': 'SEI', 'name': 'Sei', 'supply': '5556944444.0000000000000000', 'maxSupply': None, 'marketCapUsd': '1669468420.0723039147677932', 'volumeUsd24Hr': '298756689.6726063171923887', 'priceUsd': '0.3004292083349653', 'changePercent24Hr': '4.4936801883298121', 'vwap24Hr': '0.2970737059891012', 'explorer': None, 'tokens': {}}
+2025-06-29 19:58:51,352 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:51,456 The message is publishing into pubsub
+2025-06-29 19:58:51,466 Commit thread is waking up
+2025-06-29 19:58:51,648 gRPC Publish took 0.18160462379455566 seconds.
+2025-06-29 19:58:51,650 The message is published into pubsub
+2025-06-29 19:58:51,650 The crypto_data are: {'id': 'ethena', 'rank': '52', 'symbol': 'ENA', 'name': 'Ethena', 'supply': '6087500000.0000000000000000', 'maxSupply': '15000000000.0000000000000000', 'marketCapUsd': '1625779982.5019636287500000', 'volumeUsd24Hr': '56192254.4828425590919464', 'priceUsd': '0.2670685802877969', 'changePercent24Hr': '2.9774452505358811', 'vwap24Hr': '0.2644699396129712', 'explorer': None, 'tokens': {'1': ['0x57e114b691db790c35207b2e685d4a43181e6061']}}
+2025-06-29 19:58:51,650 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:51,757 The message is publishing into pubsub
+2025-06-29 19:58:51,768 Commit thread is waking up
+2025-06-29 19:58:51,972 gRPC Publish took 0.20394301414489746 seconds.
+2025-06-29 19:58:51,972 The message is published into pubsub
+2025-06-29 19:58:51,972 The crypto_data are: {'id': 'cosmos', 'rank': '53', 'symbol': 'ATOM', 'name': 'Cosmos', 'supply': '390934204.0000000000000000', 'maxSupply': None, 'marketCapUsd': '1570701199.3108825358236460', 'volumeUsd24Hr': '32956366.1542251543870372', 'priceUsd': '4.0178147198163365', 'changePercent24Hr': '1.3310075917137101', 'vwap24Hr': '4.0007165473480972', 'explorer': 'https://www.mintscan.io/', 'tokens': {'1': ['0x8d983cb9388eac77af0474fa441c4815500cb7bb'], '56': ['0x0eb3a705fc54725037cc9e008bdede697f62f335'], '137': ['0xac51c4c48dc3116487ed4bc16542e27b5694da1b']}}
+2025-06-29 19:58:51,972 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:52,059 The message is publishing into pubsub
+2025-06-29 19:58:52,070 Commit thread is waking up
+2025-06-29 19:58:52,335 gRPC Publish took 0.25707197189331055 seconds.
+2025-06-29 19:58:52,335 The message is published into pubsub
+2025-06-29 19:58:52,335 The crypto_data are: {'id': 'algorand', 'rank': '54', 'symbol': 'ALGO', 'name': 'Algorand', 'supply': '8635451866.9654900000000000', 'maxSupply': '10000000000.0000000000000000', 'marketCapUsd': '1551264664.6602325024404409', 'volumeUsd24Hr': '18604423.8981567619372182', 'priceUsd': '0.1796390841566174', 'changePercent24Hr': '3.2618693291527488', 'vwap24Hr': '0.1779246477543940', 'explorer': 'https://algoexplorer.io/', 'tokens': {}}
+2025-06-29 19:58:52,335 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:52,469 The message is publishing into pubsub
+2025-06-29 19:58:52,480 Commit thread is waking up
+2025-06-29 19:58:52,650 gRPC Publish took 0.16982746124267578 seconds.
+2025-06-29 19:58:52,650 The message is published into pubsub
+2025-06-29 19:58:52,650 The crypto_data are: {'id': 'filecoin', 'rank': '55', 'symbol': 'FIL', 'name': 'Filecoin', 'supply': '677691604.0000000000000000', 'maxSupply': None, 'marketCapUsd': '1535541520.1783042831142520', 'volumeUsd24Hr': '72982158.9400484399808637', 'priceUsd': '2.2658411453158630', 'changePercent24Hr': '2.1618764031878199', 'vwap24Hr': '2.2528721577674801', 'explorer': 'https://protocol.ai', 'tokens': {}}
+2025-06-29 19:58:52,650 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:52,745 The message is publishing into pubsub
+2025-06-29 19:58:52,762 Commit thread is waking up
+2025-06-29 19:58:52,987 gRPC Publish took 0.22500205039978027 seconds.
+2025-06-29 19:58:52,988 The message is published into pubsub
+2025-06-29 19:58:52,988 The crypto_data are: {'id': 'arbitrum', 'rank': '56', 'symbol': 'ARB', 'name': 'Arbitrum', 'supply': '4963238296.0000000000000000', 'maxSupply': None, 'marketCapUsd': '1530283317.0075915074157376', 'volumeUsd24Hr': '74898466.7947354832408098', 'priceUsd': '0.3083235633156856', 'changePercent24Hr': '1.2992643116779449', 'vwap24Hr': '0.3084821822737185', 'explorer': 'https://arbiscan.io/token/0x912CE59144191C1204E64559FE8253a0e49E6548', 'tokens': {'1': ['0xb50721bcf8d664c30412cfbc6cf7a15145234ad1'], '42161': ['0x912ce59144191c1204e64559fe8253a0e49e6548']}}
+2025-06-29 19:58:52,988 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:53,118 The message is publishing into pubsub
+2025-06-29 19:58:53,129 Commit thread is waking up
+2025-06-29 19:58:53,286 gRPC Publish took 0.15735888481140137 seconds.
+2025-06-29 19:58:53,286 The message is published into pubsub
+2025-06-29 19:58:53,293 The crypto_data are: {'id': 'worldcoin-org', 'rank': '57', 'symbol': 'WLD', 'name': 'Worldcoin', 'supply': '1670787662.3113165000000000', 'maxSupply': None, 'marketCapUsd': '1510738044.7747188770667407', 'volumeUsd24Hr': '54732997.4399258863289183', 'priceUsd': '0.9042070867849300', 'changePercent24Hr': '3.0885322805598584', 'vwap24Hr': '0.8937348956064284', 'explorer': None, 'tokens': {'1': ['0x163f8c2467924be0ae7b5347228cabf260318753'], '10': ['0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1'], '480': ['0x2cfc85d8e48f8eab294be644d9e25c3030863003']}}
+2025-06-29 19:58:53,293 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:53,461 The message is publishing into pubsub
+2025-06-29 19:58:53,472 Commit thread is waking up
+2025-06-29 19:58:53,636 gRPC Publish took 0.16317486763000488 seconds.
+2025-06-29 19:58:53,636 The message is published into pubsub
+2025-06-29 19:58:53,636 The crypto_data are: {'id': 'first-digital-usd', 'rank': '58', 'symbol': 'FDUSD', 'name': 'First Digital USD', 'supply': '1479166030.1706680000000000', 'maxSupply': None, 'marketCapUsd': '1474936284.3068701714446404', 'volumeUsd24Hr': '1416552713.8044576661551021', 'priceUsd': '0.9971404522700472', 'changePercent24Hr': '0.0234248252627724', 'vwap24Hr': '0.9983385229853382', 'explorer': None, 'tokens': {'1': ['0xc5f0f7b66764f6ec8c8dff7ba683102295e16409'], '56': ['0xc5f0f7b66764f6ec8c8dff7ba683102295e16409'], '101': ['9znqrsgljnkwcuu5gq5lr8beucpzqmvmqkai3sszh54u']}}
+2025-06-29 19:58:53,636 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:53,760 The message is publishing into pubsub
+2025-06-29 19:58:53,771 Commit thread is waking up
+2025-06-29 19:58:53,945 gRPC Publish took 0.17368102073669434 seconds.
+2025-06-29 19:58:53,945 The message is published into pubsub
+2025-06-29 19:58:53,945 The crypto_data are: {'id': 'kucoin-token', 'rank': '59', 'symbol': 'KCS', 'name': 'KuCoin Token', 'supply': '124967221.7819991700000000', 'maxSupply': '200000000.0000000000000000', 'marketCapUsd': '1392486562.6336168768238506', 'volumeUsd24Hr': '3031349.4424985478299903', 'priceUsd': '11.1428144338741856', 'changePercent24Hr': '0.5683980496215821', 'vwap24Hr': '11.1280539357185223', 'explorer': 'https://etherscan.io/token/0xf34960d9d60be18cc1d5afc1a6f012a723a28811', 'tokens': {}}
+2025-06-29 19:58:53,945 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:54,057 The message is publishing into pubsub
+2025-06-29 19:58:54,075 Commit thread is waking up
+2025-06-29 19:58:54,304 gRPC Publish took 0.22947311401367188 seconds.
+2025-06-29 19:58:54,308 The message is published into pubsub
+2025-06-29 19:58:54,308 The crypto_data are: {'id': 'jupiter', 'rank': '60', 'symbol': 'JUP', 'name': 'Jupiter', 'supply': '2951327777.7600000000000000', 'maxSupply': '3000000000.0000000000000000', 'marketCapUsd': '1351329881.0325199084651692', 'volumeUsd24Hr': '32212620.8430245307182823', 'priceUsd': '0.4578718403342352', 'changePercent24Hr': '8.6559421897623828', 'vwap24Hr': '0.4449386726255476', 'explorer': 'https://solscan.io/token/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN', 'tokens': {}}
+2025-06-29 19:58:54,308 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:54,449 The message is publishing into pubsub
+2025-06-29 19:58:54,459 Commit thread is waking up
+2025-06-29 19:58:54,651 gRPC Publish took 0.1911933422088623 seconds.
+2025-06-29 19:58:54,651 The message is published into pubsub
+2025-06-29 19:58:54,651 The crypto_data are: {'id': 'quant', 'rank': '61', 'symbol': 'QNT', 'name': 'Quant', 'supply': '12072738.0000000000000000', 'maxSupply': '14881364.0000000000000000', 'marketCapUsd': '1319197078.1954884586638230', 'volumeUsd24Hr': '8413827.8545392950869834', 'priceUsd': '109.2707452274279835', 'changePercent24Hr': '2.9473638457345726', 'vwap24Hr': '109.1415896057403930', 'explorer': 'https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675', 'tokens': {'1': ['0x4a220e6096b25eadb88358cb44068a3248254675']}}
+2025-06-29 19:58:54,651 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:54,743 The message is publishing into pubsub
+2025-06-29 19:58:54,753 Commit thread is waking up
+2025-06-29 19:58:54,918 gRPC Publish took 0.1647329330444336 seconds.
+2025-06-29 19:58:54,932 The message is published into pubsub
+2025-06-29 19:58:54,932 The crypto_data are: {'id': 'fartcoin', 'rank': '62', 'symbol': 'FARTCOIN', 'name': 'Fartcoin', 'supply': '999998256.0000000000000000', 'maxSupply': '1000000000.0000000000000000', 'marketCapUsd': '1157923443.7546529199037392', 'volumeUsd24Hr': '110253070.9389551930132701', 'priceUsd': '1.1579254631766607', 'changePercent24Hr': '10.3702911084083608', 'vwap24Hr': '1.1052769624633811', 'explorer': None, 'tokens': {'101': ['9bb6nfecjbctnnlfko2fqvqbq8hhm13kcyycdqbgpump']}}
+2025-06-29 19:58:54,932 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:55,032 The message is publishing into pubsub
+2025-06-29 19:58:55,043 Commit thread is waking up
+2025-06-29 19:58:55,231 gRPC Publish took 0.188554048538208 seconds.
+2025-06-29 19:58:55,231 The message is published into pubsub
+2025-06-29 19:58:55,231 The crypto_data are: {'id': 'bonk1', 'rank': '63', 'symbol': 'BONK', 'name': 'Bonk', 'supply': '77894175221082.5500000000000000', 'maxSupply': None, 'marketCapUsd': '1149204036.9755940393162793', 'volumeUsd24Hr': '96034315.6229326015941902', 'priceUsd': '0.0000147534014413', 'changePercent24Hr': '7.8967886604517343', 'vwap24Hr': '0.0000144640387438', 'explorer': None, 'tokens': {'1': ['0x1151cb3d861920e07a38e03eead12c32178567f6'], '56': ['0xa697e272a73744b343528c3bc4702f2565b2f422'], '101': ['dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263'], '137': ['0xe5b49820e5a1063f6f4ddf851327b5e8b2301048'], '8453': ['0xdf1cf211d38e7762c9691be4d779a441a17a6cfc'], '42161': ['0x09199d9a5f4448d0848e4395d065e1ad9c4a1f74']}}
+2025-06-29 19:58:55,231 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:55,332 The message is publishing into pubsub
+2025-06-29 19:58:55,342 Commit thread is waking up
+2025-06-29 19:58:55,515 gRPC Publish took 0.17224431037902832 seconds.
+2025-06-29 19:58:55,523 The message is published into pubsub
+2025-06-29 19:58:55,523 The crypto_data are: {'id': 'injective-protocol', 'rank': '64', 'symbol': 'INJ', 'name': 'Injective', 'supply': '99970935.4100000000000000', 'maxSupply': '100000000.0000000000000000', 'marketCapUsd': '1086649772.4212156093065627', 'volumeUsd24Hr': '52725281.6355271501060478', 'priceUsd': '10.8696569454377541', 'changePercent24Hr': '3.1563254844571057', 'vwap24Hr': '10.8471753918515388', 'explorer': 'https://etherscan.io/token/0xe28b3b32b6c345a34ff64674606124dd5aceca30', 'tokens': {'1': ['0xe28b3b32b6c345a34ff64674606124dd5aceca30'], '56': ['0xa2b726b1145a4773f68593cf171187d8ebe4d495']}}
+2025-06-29 19:58:55,523 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:55,634 The message is publishing into pubsub
+2025-06-29 19:58:55,644 Commit thread is waking up
+2025-06-29 19:58:55,838 gRPC Publish took 0.19382882118225098 seconds.
+2025-06-29 19:58:55,838 The message is published into pubsub
+2025-06-29 19:58:55,838 The crypto_data are: {'id': 'flare', 'rank': '65', 'symbol': 'FLR', 'name': 'Flare', 'supply': '60983663777.0100000000000000', 'maxSupply': None, 'marketCapUsd': '1053569220.6445998305731089', 'volumeUsd24Hr': '2858187.3737831429153664', 'priceUsd': '0.0172762532683676', 'changePercent24Hr': '-1.0510788309156804', 'vwap24Hr': '0.0174966396831191', 'explorer': 'https://flare-explorer.flare.network/', 'tokens': {}}
+2025-06-29 19:58:55,838 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:55,918 The message is publishing into pubsub
+2025-06-29 19:58:55,939 Commit thread is waking up
+2025-06-29 19:58:56,153 gRPC Publish took 0.21471786499023438 seconds.
+2025-06-29 19:58:56,153 The message is published into pubsub
+2025-06-29 19:58:56,153 The crypto_data are: {'id': 'wbnb', 'rank': '66', 'symbol': 'WBNB', 'name': 'Wrapped BNB', 'supply': '1582884.5398480400000000', 'maxSupply': None, 'marketCapUsd': '1028886006.6776374765573519', 'volumeUsd24Hr': '118542417.5650667570816974', 'priceUsd': '650.0069845753958390', 'changePercent24Hr': '0.6235059068010405', 'vwap24Hr': None, 'explorer': 'https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'tokens': {'1': ['0x418d75f65a02b3d53b2418fb8e1fe493759c7605'], '56': ['0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c'], '101': ['9gp2kcy3wa1ctvywqk75guqxuhfreomqydhltctcqila'], '137': ['0xecdcb5b88f8e3c15f95c720c51c71c9e2080525d'], '43114': ['0x442f7f22b1ee2c842beaff52880d4573e9201158']}}
+2025-06-29 19:58:56,153 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:56,243 The message is publishing into pubsub
+2025-06-29 19:58:56,263 Commit thread is waking up
+2025-06-29 19:58:56,504 gRPC Publish took 0.24163293838500977 seconds.
+2025-06-29 19:58:56,520 The message is published into pubsub
+2025-06-29 19:58:56,520 The crypto_data are: {'id': 'virtual-protocol', 'rank': '67', 'symbol': 'VIRTUAL', 'name': 'Virtuals Protocol', 'supply': '649501196.0200000000000000', 'maxSupply': '1000000000.0000000000000000', 'marketCapUsd': '1021099246.8872441405074330', 'volumeUsd24Hr': '106568269.6947359020934434', 'priceUsd': '1.5721283550273887', 'changePercent24Hr': '8.1162299203441882', 'vwap24Hr': '1.5280565331901926', 'explorer': 'https://solscan.io/token/3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y', 'tokens': {'1': ['0x44ff8620b8ca30902395a7bd3f2407e1a091bf73'], '99': ['3iql8bfs2ve7mww4ehaqqhasbmrncrpxizwat2zfyr9y'], '8453': ['0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b']}}
+2025-06-29 19:58:56,520 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:56,605 The message is publishing into pubsub
+2025-06-29 19:58:56,616 Commit thread is waking up
+2025-06-29 19:58:56,828 gRPC Publish took 0.21195340156555176 seconds.
+2025-06-29 19:58:56,829 The message is published into pubsub
+2025-06-29 19:58:56,829 The crypto_data are: {'id': 'stacks', 'rank': '68', 'symbol': 'STX', 'name': 'Stacks', 'supply': '1532163934.1658800000000000', 'maxSupply': '1818000000.0000000000000000', 'marketCapUsd': '1020070383.9384132623296372', 'volumeUsd24Hr': '9949786.0377829697195810', 'priceUsd': '0.6657710452463732', 'changePercent24Hr': '1.8099509299183670', 'vwap24Hr': '0.6639740191812734', 'explorer': 'https://explorer.stacks.co/', 'tokens': {}}
+2025-06-29 19:58:56,831 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:56,937 The message is publishing into pubsub
+2025-06-29 19:58:56,948 Commit thread is waking up
+2025-06-29 19:58:57,538 gRPC Publish took 0.5894865989685059 seconds.
+2025-06-29 19:58:57,538 The message is published into pubsub
+2025-06-29 19:58:57,538 The crypto_data are: {'id': 'celestia', 'rank': '69', 'symbol': 'TIA', 'name': 'Celestia', 'supply': '690559622.4136640000000000', 'maxSupply': None, 'marketCapUsd': '1005294414.9618450363826032', 'volumeUsd24Hr': '36448472.2793854060010252', 'priceUsd': '1.4557677314640999', 'changePercent24Hr': '0.3072534134535223', 'vwap24Hr': '1.4631688306703446', 'explorer': 'https://www.mintscan.io/celestia', 'tokens': {}}
+2025-06-29 19:58:57,538 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:57,633 The message is publishing into pubsub
+2025-06-29 19:58:57,644 Commit thread is waking up
+2025-06-29 19:58:57,888 gRPC Publish took 0.24440550804138184 seconds.
+2025-06-29 19:58:57,888 The message is published into pubsub
+2025-06-29 19:58:57,888 The crypto_data are: {'id': 'kaia', 'rank': '70', 'symbol': 'KAIA', 'name': 'Kaia', 'supply': '5966455361.8200000000000000', 'maxSupply': None, 'marketCapUsd': '1001738999.8412598923735134', 'volumeUsd24Hr': '15234460.5223128316415455', 'priceUsd': '0.1678951637267744', 'changePercent24Hr': '-0.2474700099006485', 'vwap24Hr': '0.1691066623302420', 'explorer': 'https://www.kaiascan.io/', 'tokens': {}}
+2025-06-29 19:58:57,888 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:58,000 The message is publishing into pubsub
+2025-06-29 19:58:58,010 Commit thread is waking up
+2025-06-29 19:58:58,218 gRPC Publish took 0.20846986770629883 seconds.
+2025-06-29 19:58:58,218 The message is published into pubsub
+2025-06-29 19:58:58,218 The crypto_data are: {'id': 'paypal-usd', 'rank': '71', 'symbol': 'PYUSD', 'name': 'PayPal USD', 'supply': '967753807.4983440000000000', 'maxSupply': None, 'marketCapUsd': '966394410.5788641894906467', 'volumeUsd24Hr': '2243480.4332124971658493', 'priceUsd': '0.9985953070822900', 'changePercent24Hr': '0.0911505849644239', 'vwap24Hr': '0.9999074467510986', 'explorer': 'https://etherscan.io/token/0x6c3ea9036406852006290770bedfcaba0e23a0e8', 'tokens': {'1': ['0x6c3ea9036406852006290770bedfcaba0e23a0e8'], '101': ['2b1kv6dkpanxd5ixfnxcpjxmkwqjjaymczfhsfu24gxo']}}
+2025-06-29 19:58:58,218 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:58,298 The message is publishing into pubsub
+2025-06-29 19:58:58,317 Commit thread is waking up
+2025-06-29 19:58:58,497 gRPC Publish took 0.17975544929504395 seconds.
+2025-06-29 19:58:58,497 The message is published into pubsub
+2025-06-29 19:58:58,497 The crypto_data are: {'id': 'xinfin-network', 'rank': '72', 'symbol': 'XDC', 'name': 'XDC Network', 'supply': '16221980182.6000000000000000', 'maxSupply': None, 'marketCapUsd': '965369738.4437288182877570', 'volumeUsd24Hr': '6490514.8044012015271869', 'priceUsd': '0.0595099813695496', 'changePercent24Hr': '-0.8665515929123474', 'vwap24Hr': '0.0600444254065542', 'explorer': 'https://etherscan.io/token/0x41ab1b6fcbb2fa9dced81acbdec13ea6315f2bf2', 'tokens': {}}
+2025-06-29 19:58:58,497 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:58,615 The message is publishing into pubsub
+2025-06-29 19:58:58,625 Commit thread is waking up
+2025-06-29 19:58:58,847 gRPC Publish took 0.2214956283569336 seconds.
+2025-06-29 19:58:58,847 The message is published into pubsub
+2025-06-29 19:58:58,847 The crypto_data are: {'id': 'fantom', 'rank': '73', 'symbol': 'S', 'name': 'Sonic (prev. FTM)', 'supply': '2880000000.0000000000000000', 'maxSupply': '3175000000.0000000000000000', 'marketCapUsd': '913104996.7729294080000000', 'volumeUsd24Hr': '25738276.0063585035132977', 'priceUsd': '0.3170503461017116', 'changePercent24Hr': '4.0225680567535298', 'vwap24Hr': '0.3124736606585511', 'explorer': 'sonicscan.org', 'tokens': {}}
+2025-06-29 19:58:58,847 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:58,896 The message is publishing into pubsub
+2025-06-29 19:58:58,907 Commit thread is waking up
+2025-06-29 19:58:59,113 gRPC Publish took 0.20586109161376953 seconds.
+2025-06-29 19:58:59,113 The message is published into pubsub
+2025-06-29 19:58:59,113 The crypto_data are: {'id': 'optimism-ethereum', 'rank': '74', 'symbol': 'OP', 'name': 'Optimism', 'supply': '1620705846.0000000000000000', 'maxSupply': None, 'marketCapUsd': '902109528.0376691437687926', 'volumeUsd24Hr': '51209475.7762533528365448', 'priceUsd': '0.5566152119856481', 'changePercent24Hr': '3.1284641256445865', 'vwap24Hr': '0.5526046668774998', 'explorer': 'https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000042', 'tokens': {'10': ['0x4200000000000000000000000000000000000042']}}
+2025-06-29 19:58:59,113 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:59,166 The message is publishing into pubsub
+2025-06-29 19:58:59,179 Commit thread is waking up
+2025-06-29 19:58:59,370 gRPC Publish took 0.1905210018157959 seconds.
+2025-06-29 19:58:59,370 The message is published into pubsub
+2025-06-29 19:58:59,370 The crypto_data are: {'id': 'story-protocol', 'rank': '75', 'symbol': 'IP', 'name': 'Story', 'supply': '285876411.0000000000000000', 'maxSupply': None, 'marketCapUsd': '871847432.1515826854180421', 'volumeUsd24Hr': '8738162.1867473839338606', 'priceUsd': '3.0497354752070911', 'changePercent24Hr': '4.0665188896998928', 'vwap24Hr': '3.0046365422460915', 'explorer': 'www.storyscan.xyz', 'tokens': {}}
+2025-06-29 19:58:59,370 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:59,418 The message is publishing into pubsub
+2025-06-29 19:58:59,435 Commit thread is waking up
+2025-06-29 19:58:59,613 gRPC Publish took 0.17841339111328125 seconds.
+2025-06-29 19:58:59,613 The message is published into pubsub
+2025-06-29 19:58:59,613 The crypto_data are: {'id': 'pudgy-penguins', 'rank': '76', 'symbol': 'PENGU', 'name': 'Pudgy Penguins', 'supply': '62860396090.0400000000000000', 'maxSupply': None, 'marketCapUsd': '850966487.3552149296972696', 'volumeUsd24Hr': '391815753.6633208286813796', 'priceUsd': '0.0135374025664157', 'changePercent24Hr': '12.6852432997360104', 'vwap24Hr': '0.0133462717876751', 'explorer': 'https://solscan.io/token/2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv', 'tokens': {}}
+2025-06-29 19:58:59,613 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:59,644 The message is publishing into pubsub
+2025-06-29 19:58:59,670 Commit thread is waking up
+2025-06-29 19:58:59,867 gRPC Publish took 0.19724082946777344 seconds.
+2025-06-29 19:58:59,867 The message is published into pubsub
+2025-06-29 19:58:59,869 The crypto_data are: {'id': 'dogwifhat', 'rank': '77', 'symbol': 'WIF', 'name': 'dogwifhat', 'supply': '998840237.9636530000000000', 'maxSupply': '998840592.9893470000000000', 'marketCapUsd': '847356592.8733030305365081', 'volumeUsd24Hr': '211505109.7060658047467113', 'priceUsd': '0.8483404659395967', 'changePercent24Hr': '5.9268795662986583', 'vwap24Hr': '0.8274756419053247', 'explorer': 'https://solscan.io/token/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm', 'tokens': {}}
+2025-06-29 19:58:59,869 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:58:59,923 The message is publishing into pubsub
+2025-06-29 19:58:59,933 Commit thread is waking up
+2025-06-29 19:59:00,118 gRPC Publish took 0.18538260459899902 seconds.
+2025-06-29 19:59:00,118 The message is published into pubsub
+2025-06-29 19:59:00,118 The crypto_data are: {'id': 'the-graph', 'rank': '78', 'symbol': 'GRT', 'name': 'The Graph', 'supply': '9875210669.5850890000000000', 'maxSupply': None, 'marketCapUsd': '835069577.3185572363692674', 'volumeUsd24Hr': '6420682.1314941072048005', 'priceUsd': '0.0845622038110548', 'changePercent24Hr': '3.5975288356103462', 'vwap24Hr': '0.0840054781139772', 'explorer': 'https://etherscan.io/token/0xc944e90c64b2c07662a292be6244bdf05cda44a7', 'tokens': {'1': ['0xc944e90c64b2c07662a292be6244bdf05cda44a7'], '42161': ['0x9623063377ad1b27544c965ccd7342f7ea7e88c7'], '43114': ['0x8a0cac13c7da965a312f08ea4229c37869e85cb9']}}
+2025-06-29 19:59:00,120 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:00,158 The message is publishing into pubsub
+2025-06-29 19:59:00,177 Commit thread is waking up
+2025-06-29 19:59:00,349 gRPC Publish took 0.17218661308288574 seconds.
+2025-06-29 19:59:00,349 The message is published into pubsub
+2025-06-29 19:59:00,349 The crypto_data are: {'id': 'tether-gold', 'rank': '79', 'symbol': 'XAUT', 'name': 'Tether Gold', 'supply': '246524.0000000000000000', 'maxSupply': None, 'marketCapUsd': '807916430.7701924248431460', 'volumeUsd24Hr': '6648065.1270604315338235', 'priceUsd': '3277.2323618397901415', 'changePercent24Hr': '-0.1338372081471638', 'vwap24Hr': '3285.4128729576539878', 'explorer': 'https://etherscan.io/token/0x4922a015c4407f87432b179bb209e125432e4a2a', 'tokens': {'1': ['0x68749665ff8d2d112fa859aa293f07a622782f38']}}
+2025-06-29 19:59:00,349 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:00,406 The message is publishing into pubsub
+2025-06-29 19:59:00,416 Commit thread is waking up
+2025-06-29 19:59:00,609 gRPC Publish took 0.1926426887512207 seconds.
+2025-06-29 19:59:00,609 The message is published into pubsub
+2025-06-29 19:59:00,609 The crypto_data are: {'id': 'nexo', 'rank': '80', 'symbol': 'NEXO', 'name': 'Nexo', 'supply': '646145839.5746847000000000', 'maxSupply': '1000000000.0000000000000000', 'marketCapUsd': '781133830.1134922786743847', 'volumeUsd24Hr': '3040528.0115491660887557', 'priceUsd': '1.2089125740214644', 'changePercent24Hr': '1.4662214198290740', 'vwap24Hr': '1.1998675631055960', 'explorer': 'https://etherscan.io/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206', 'tokens': {'1': ['0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206'], '56': ['nexo-a84'], '137': ['0x41b3966b4ff7b427969ddf5da3627d6aeae9a48e']}}
+2025-06-29 19:59:00,611 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:00,705 The message is publishing into pubsub
+2025-06-29 19:59:00,715 Commit thread is waking up
+2025-06-29 19:59:00,960 gRPC Publish took 0.24501991271972656 seconds.
+2025-06-29 19:59:00,964 The message is published into pubsub
+2025-06-29 19:59:00,964 The crypto_data are: {'id': 'jito', 'rank': '81', 'symbol': 'JTO', 'name': 'Jito', 'supply': '342338842.3000000000000000', 'maxSupply': None, 'marketCapUsd': '775614842.6244927102210380', 'volumeUsd24Hr': '45538683.4426798600379535', 'priceUsd': '2.2656349405563574', 'changePercent24Hr': '7.6673272434313199', 'vwap24Hr': '2.2195177529440229', 'explorer': 'https://solscan.io/token/jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL', 'tokens': {}}
+2025-06-29 19:59:00,965 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:01,078 The message is publishing into pubsub
+2025-06-29 19:59:01,089 Commit thread is waking up
+2025-06-29 19:59:01,273 gRPC Publish took 0.18397307395935059 seconds.
+2025-06-29 19:59:01,274 The message is published into pubsub
+2025-06-29 19:59:01,274 The crypto_data are: {'id': 'immutable-x', 'rank': '82', 'symbol': 'IMX', 'name': 'Immutable X', 'supply': '1768317543.3900000000000000', 'maxSupply': '2000000000.0000000000000000', 'marketCapUsd': '764048004.3373353455456641', 'volumeUsd24Hr': '9198568.2211605929329468', 'priceUsd': '0.4320762451254071', 'changePercent24Hr': '3.8781196145190111', 'vwap24Hr': '0.4294612988085834', 'explorer': None, 'tokens': {'1': ['0xf57e7e7c23978c3caec3c3548e3d615c346e79ff']}}
+2025-06-29 19:59:01,274 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:01,375 The message is publishing into pubsub
+2025-06-29 19:59:01,385 Commit thread is waking up
+2025-06-29 19:59:01,617 gRPC Publish took 0.2313852310180664 seconds.
+2025-06-29 19:59:01,617 The message is published into pubsub
+2025-06-29 19:59:01,617 The crypto_data are: {'id': 'pancakeswap', 'rank': '83', 'symbol': 'CAKE', 'name': 'PancakeSwap', 'supply': '321068562.5899340500000000', 'maxSupply': '450000000.0000000000000000', 'marketCapUsd': '732050628.4616537309760418', 'volumeUsd24Hr': '15568175.3271748778416154', 'priceUsd': '2.2800445567030565', 'changePercent24Hr': '3.2566043628352888', 'vwap24Hr': '2.2413829893299313', 'explorer': 'https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', 'tokens': {}}
+2025-06-29 19:59:01,617 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:01,670 The message is publishing into pubsub
+2025-06-29 19:59:01,681 Commit thread is waking up
+2025-06-29 19:59:01,885 gRPC Publish took 0.20387029647827148 seconds.
+2025-06-29 19:59:01,885 The message is published into pubsub
+2025-06-29 19:59:01,885 The crypto_data are: {'id': 'floki-inu', 'rank': '84', 'symbol': 'FLOKI', 'name': 'FLOKI', 'supply': '9626637864609.9200000000000000', 'maxSupply': '0.0000000000000000', 'marketCapUsd': '721717216.3033663763646166', 'volumeUsd24Hr': '27857549.9193196873693422', 'priceUsd': '0.0000749708492678', 'changePercent24Hr': '5.3496988268484446', 'vwap24Hr': '0.0000736447109300', 'explorer': 'https://bscscan.com/token/0xfb5b838b6cfeedc2873ab27866079ac55363d37e', 'tokens': {'1': ['0xcf0c122c6b73ff809c693db761e7baebe62b6a2e'], '56': ['0xfb5b838b6cfeedc2873ab27866079ac55363d37e']}}
+2025-06-29 19:59:01,885 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:01,988 The message is publishing into pubsub
+2025-06-29 19:59:01,998 Commit thread is waking up
+2025-06-29 19:59:02,176 gRPC Publish took 0.17680835723876953 seconds.
+2025-06-29 19:59:02,176 The message is published into pubsub
+2025-06-29 19:59:02,176 The crypto_data are: {'id': 'curve-dao-token', 'rank': '85', 'symbol': 'CRV', 'name': 'Curve DAO Token', 'supply': '1358727024.6532362000000000', 'maxSupply': '3030303030.2990000000000000', 'marketCapUsd': '694694022.1223762784449314', 'volumeUsd24Hr': '25499007.3344876171368626', 'priceUsd': '0.5112829946836972', 'changePercent24Hr': '0.5801048717186842', 'vwap24Hr': '0.5148119881840839', 'explorer': 'https://etherscan.io/token/0xD533a949740bb3306d119CC777fa900bA034cd52', 'tokens': {'1': ['0xd533a949740bb3306d119cc777fa900ba034cd52'], '10': ['0x0994206dfe8de6ec6920ff4d779b0d950605fb53'], '137': ['0x172370d5cd63279efa6d502dab29171933a610af'], '8453': ['0x8ee73c484a26e0a5df2ee2a4960b789967dd0415'], '42161': ['0x11cdb42b0eb46d95f990bedd4695a6e3fa034978']}}
+2025-06-29 19:59:02,176 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:02,283 The message is publishing into pubsub
+2025-06-29 19:59:02,293 Commit thread is waking up
+2025-06-29 19:59:02,463 gRPC Publish took 0.17039251327514648 seconds.
+2025-06-29 19:59:02,463 The message is published into pubsub
+2025-06-29 19:59:02,466 The crypto_data are: {'id': 'pax-gold', 'rank': '86', 'symbol': 'PAXG', 'name': 'PAX Gold', 'supply': '210371.2200000000000000', 'maxSupply': None, 'marketCapUsd': '690823805.7888401900377688', 'volumeUsd24Hr': '9257614.0654109287072914', 'priceUsd': '3283.8322931665281498', 'changePercent24Hr': '-0.2550952145203630', 'vwap24Hr': '3291.8034035627945343', 'explorer': 'https://etherscan.io/token/0x45804880de22913dafe09f4980848ece6ecbaf78', 'tokens': {'1': ['0x45804880de22913dafe09f4980848ece6ecbaf78'], '137': ['0x553d3d295e0f695b9228246232edf400ed3560b5']}}
+2025-06-29 19:59:02,466 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:02,527 The message is publishing into pubsub
+2025-06-29 19:59:02,538 Commit thread is waking up
+2025-06-29 19:59:02,705 gRPC Publish took 0.16636252403259277 seconds.
+2025-06-29 19:59:02,714 The message is published into pubsub
+2025-06-29 19:59:02,714 The crypto_data are: {'id': 'dexe', 'rank': '87', 'symbol': 'DEXE', 'name': 'DeXe', 'supply': '83733425.7416205600000000', 'maxSupply': None, 'marketCapUsd': '684652358.4164109707796200', 'volumeUsd24Hr': '14561829.7495061850427999', 'priceUsd': '8.1765716898896384', 'changePercent24Hr': '-6.1645798474364318', 'vwap24Hr': '8.3868521794636248', 'explorer': 'https://etherscan.io/token/0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6', 'tokens': {'1': ['0xde4ee8057785a7e8e800db58f9784845a5c2cbd6'], '56': ['0x6e88056e8376ae7709496ba64d37fa2f8015ce3e']}}
+2025-06-29 19:59:02,714 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:02,805 The message is publishing into pubsub
+2025-06-29 19:59:02,815 Commit thread is waking up
+2025-06-29 19:59:02,972 gRPC Publish took 0.15687131881713867 seconds.
+2025-06-29 19:59:02,973 The message is published into pubsub
+2025-06-29 19:59:02,973 The crypto_data are: {'id': 'theta', 'rank': '88', 'symbol': 'THETA', 'name': 'Theta Network', 'supply': '1000000000.0000000000000000', 'maxSupply': '1000000000.0000000000000000', 'marketCapUsd': '676719602.8142175000000000', 'volumeUsd24Hr': '8166995.4233901908312662', 'priceUsd': '0.6767196028142175', 'changePercent24Hr': '2.7239000781508868', 'vwap24Hr': '0.6711036833571718', 'explorer': 'https://explorer.thetatoken.org/', 'tokens': {}}
+2025-06-29 19:59:02,974 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:03,075 The message is publishing into pubsub
+2025-06-29 19:59:03,093 Commit thread is waking up
+2025-06-29 19:59:03,368 gRPC Publish took 0.2745482921600342 seconds.
+2025-06-29 19:59:03,368 The message is published into pubsub
+2025-06-29 19:59:03,368 The crypto_data are: {'id': 'ethereum-name-service', 'rank': '89', 'symbol': 'ENS', 'name': 'Ethereum Name Service', 'supply': '35599404.0400000000000000', 'maxSupply': '100000000.0000000000000000', 'marketCapUsd': '665991143.3827407778879375', 'volumeUsd24Hr': '11952155.4647324379731204', 'priceUsd': '18.7079295663046380', 'changePercent24Hr': '1.3701749261501174', 'vwap24Hr': '18.7353925936639370', 'explorer': 'https://etherscan.io/token/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72', 'tokens': {'1': ['0xc18360217d8f7ab5e7c516566761ea12ce7f9d72'], '101': ['clqsdgogibdnpnvcfp8basn2unvyvb41jd5usywanzag']}}
+2025-06-29 19:59:03,368 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:03,467 The message is publishing into pubsub
+2025-06-29 19:59:03,478 Commit thread is waking up
+2025-06-29 19:59:03,667 gRPC Publish took 0.1883220672607422 seconds.
+2025-06-29 19:59:03,667 The message is published into pubsub
+2025-06-29 19:59:03,667 The crypto_data are: {'id': 'zcash', 'rank': '90', 'symbol': 'ZEC', 'name': 'Zcash', 'supply': '16711867.3158504300000000', 'maxSupply': '21000000.0000000000000000', 'marketCapUsd': '658002585.2962747733361117', 'volumeUsd24Hr': '6465635.6167552735846624', 'priceUsd': '39.3733729965765035', 'changePercent24Hr': '3.5697925244865373', 'vwap24Hr': '39.1374964383604504', 'explorer': 'https://explorer.zcha.in/', 'tokens': {}}
+2025-06-29 19:59:03,678 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:03,766 The message is publishing into pubsub
+2025-06-29 19:59:03,776 Commit thread is waking up
+2025-06-29 19:59:03,974 gRPC Publish took 0.19760656356811523 seconds.
+2025-06-29 19:59:03,974 The message is published into pubsub
+2025-06-29 19:59:03,974 The crypto_data are: {'id': 'jasmy', 'rank': '91', 'symbol': 'JASMY', 'name': 'JasmyCoin', 'supply': '49444999677.1695800000000000', 'maxSupply': '50000000000.0000000000000000', 'marketCapUsd': '656516796.4096830522143915', 'volumeUsd24Hr': '9066114.2483578142304259', 'priceUsd': '0.0132777186913972', 'changePercent24Hr': '0.8863576544541519', 'vwap24Hr': '0.0132836847050001', 'explorer': None, 'tokens': {}}
+2025-06-29 19:59:03,974 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:04,061 The message is publishing into pubsub
+2025-06-29 19:59:04,080 Commit thread is waking up
+2025-06-29 19:59:04,278 gRPC Publish took 0.19746088981628418 seconds.
+2025-06-29 19:59:04,278 The message is published into pubsub
+2025-06-29 19:59:04,278 The crypto_data are: {'id': 'lido-dao', 'rank': '92', 'symbol': 'LDO', 'name': 'Lido DAO', 'supply': '896960282.0157413000000000', 'maxSupply': None, 'marketCapUsd': '647971925.4995135116081864', 'volumeUsd24Hr': '18392534.8491873665120634', 'priceUsd': '0.7224087158500758', 'changePercent24Hr': '2.9488181813135648', 'vwap24Hr': '0.7187968932178131', 'explorer': 'https://etherscan.io/token/0x5a98fcbea516cf06857215779fd812ca3bef1b32', 'tokens': {'1': ['0x5a98fcbea516cf06857215779fd812ca3bef1b32'], '56': ['0x986854779804799c1d68867f5e03e601e781e41b'], '42161': ['0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60']}}
+2025-06-29 19:59:04,278 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:04,373 The message is publishing into pubsub
+2025-06-29 19:59:04,398 Commit thread is waking up
+2025-06-29 19:59:04,585 gRPC Publish took 0.1870591640472412 seconds.
+2025-06-29 19:59:04,585 The message is published into pubsub
+2025-06-29 19:59:04,587 The crypto_data are: {'id': 'gala', 'rank': '93', 'symbol': 'GALA', 'name': 'Gala', 'supply': '45077396622.0232400000000000', 'maxSupply': '50000000000.0000000000000000', 'marketCapUsd': '632513192.2240687300158591', 'volumeUsd24Hr': '34812025.7119660066832490', 'priceUsd': '0.0140317152192202', 'changePercent24Hr': '3.0154603357089841', 'vwap24Hr': '0.0139211056154204', 'explorer': 'https://ethplorer.io/es/address/0x15d4c048f83bd7e37d49ea4c83a07267ec4203da#chart=candlestick', 'tokens': {'1': ['0xd1d2eb1b1e90b638588728b4130137d262c87cae']}}
+2025-06-29 19:59:04,587 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:04,654 The message is publishing into pubsub
+2025-06-29 19:59:04,675 Commit thread is waking up
+2025-06-29 19:59:04,837 gRPC Publish took 0.1616535186767578 seconds.
+2025-06-29 19:59:04,837 The message is published into pubsub
+2025-06-29 19:59:04,837 The crypto_data are: {'id': 'usual-usd', 'rank': '94', 'symbol': 'USD0', 'name': 'Usual USD', 'supply': '632662906.9462285000000000', 'maxSupply': None, 'marketCapUsd': '631275172.4250213026262905', 'volumeUsd24Hr': '2137289.0186975813371238', 'priceUsd': '0.9978065182801603', 'changePercent24Hr': '0.0551046274341360', 'vwap24Hr': None, 'explorer': 'https://etherscan.io/address/0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5', 'tokens': {'1': ['0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5'], '42161': ['0x35f1c5cb7fb977e669fd244c567da99d8a3a6850']}}
+2025-06-29 19:59:04,838 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:04,904 The message is publishing into pubsub
+2025-06-29 19:59:04,914 Commit thread is waking up
+2025-06-29 19:59:05,082 gRPC Publish took 0.16646862030029297 seconds.
+2025-06-29 19:59:05,082 The message is published into pubsub
+2025-06-29 19:59:05,082 The crypto_data are: {'id': 'the-sandbox', 'rank': '95', 'symbol': 'SAND', 'name': 'The Sandbox', 'supply': '2573289190.2233224000000000', 'maxSupply': None, 'marketCapUsd': '618738813.8686997974302580', 'volumeUsd24Hr': '13162096.1187178162983429', 'priceUsd': '0.2404466688856695', 'changePercent24Hr': '0.6241044516691235', 'vwap24Hr': '0.2406435433704802', 'explorer': 'https://etherscan.io/token/0x3845badAde8e6dFF049820680d1F14bD3903a5d0', 'tokens': {'1': ['0x3845badade8e6dff049820680d1f14bd3903a5d0'], '137': ['0xbbba073c31bf03b8acf7c28ef0738decf3695683']}}
+2025-06-29 19:59:05,082 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:05,162 The message is publishing into pubsub
+2025-06-29 19:59:05,184 Commit thread is waking up
+2025-06-29 19:59:05,384 gRPC Publish took 0.20018911361694336 seconds.
+2025-06-29 19:59:05,390 The message is published into pubsub
+2025-06-29 19:59:05,390 The crypto_data are: {'id': 'aerodrome-finance', 'rank': '96', 'symbol': 'AERO', 'name': 'Aerodrome Finance', 'supply': '796861861.3800000000000000', 'maxSupply': None, 'marketCapUsd': '617768634.8034629820109659', 'volumeUsd24Hr': '16132260.0521191063918110', 'priceUsd': '0.7752518532303898', 'changePercent24Hr': '3.0312770953520753', 'vwap24Hr': '0.7648594498156767', 'explorer': 'https://basescan.org/token/0x940181a94A35A4569E4529A3CDfB74e38FD98631', 'tokens': {'8453': ['0x940181a94a35a4569e4529a3cdfb74e38fd98631']}}
+2025-06-29 19:59:05,390 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:05,489 The message is publishing into pubsub
+2025-06-29 19:59:05,499 Commit thread is waking up
+2025-06-29 19:59:05,695 gRPC Publish took 0.1945936679840088 seconds.
+2025-06-29 19:59:05,695 The message is published into pubsub
+2025-06-29 19:59:05,695 The crypto_data are: {'id': 'bitcoin-sv', 'rank': '97', 'symbol': 'BSV', 'name': 'Bitcoin SV', 'supply': '19885412.5000000000000000', 'maxSupply': None, 'marketCapUsd': '616802829.8776651091471650', 'volumeUsd24Hr': '3634000.3158725568749040', 'priceUsd': '31.0178544135136804', 'changePercent24Hr': '1.7209053080273802', 'vwap24Hr': '30.8130240975610195', 'explorer': 'https://bsvexplorer.io/', 'tokens': {}}
+2025-06-29 19:59:05,695 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:05,812 The message is publishing into pubsub
+2025-06-29 19:59:05,823 Commit thread is waking up
+2025-06-29 19:59:06,011 gRPC Publish took 0.1878197193145752 seconds.
+2025-06-29 19:59:06,013 The message is published into pubsub
+2025-06-29 19:59:06,013 The crypto_data are: {'id': 'iota', 'rank': '98', 'symbol': 'IOTA', 'name': 'IOTA', 'supply': '3864958594.0000000000000000', 'maxSupply': None, 'marketCapUsd': '611925435.2131400210683218', 'volumeUsd24Hr': '4113544.8201493920980146', 'priceUsd': '0.1583265176923497', 'changePercent24Hr': '2.4015638228182829', 'vwap24Hr': '0.1574680470654132', 'explorer': 'https://thetangle.org/', 'tokens': {}}
+2025-06-29 19:59:06,013 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:06,099 The message is publishing into pubsub
+2025-06-29 19:59:06,109 Commit thread is waking up
+2025-06-29 19:59:06,282 gRPC Publish took 0.17287898063659668 seconds.
+2025-06-29 19:59:06,282 The message is published into pubsub
+2025-06-29 19:59:06,282 The crypto_data are: {'id': 'bittorrent', 'rank': '99', 'symbol': 'BTTOLD', 'name': 'BitTorrent [New]', 'supply': '986061142857000.0000000000000000', 'maxSupply': None, 'marketCapUsd': '590695174.4193528221172000', 'volumeUsd24Hr': '752116.6578409155392523', 'priceUsd': '0.0000005990451796', 'changePercent24Hr': '0.7638959400613372', 'vwap24Hr': '0.0000005969279701', 'explorer': 'https://tronscan.org/#/token/1002000', 'tokens': {'1': ['0xc669928185dbce49d2230cc9b0979be6dc797957'], '56': ['0x352cb5e19b12fc216548a2677bd0fce83bae434b'], '728126428': ['tafjulxivgt4qwk6uzwjqwzxtsagaqnvp4']}}
+2025-06-29 19:59:06,282 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:06,378 The message is publishing into pubsub
+2025-06-29 19:59:06,396 Commit thread is waking up
+2025-06-29 19:59:06,574 gRPC Publish took 0.17723798751831055 seconds.
+2025-06-29 19:59:06,574 The message is published into pubsub
+2025-06-29 19:59:06,574 The crypto_data are: {'id': 'pendle', 'rank': '100', 'symbol': 'PENDLE', 'name': 'Pendle', 'supply': '162879651.4997011400000000', 'maxSupply': None, 'marketCapUsd': '584902818.9154831329782600', 'volumeUsd24Hr': '4140026.7406486276572210', 'priceUsd': '3.5910122199429948', 'changePercent24Hr': '2.7974720376382956', 'vwap24Hr': '3.5487303923152824', 'explorer': 'https://etherscan.io/token/0x808507121b80c02388fad14726482e061b8da827', 'tokens': {'1': ['0x808507121b80c02388fad14726482e061b8da827'], '56': ['0xb3ed0a426155b79b898849803e3b36552f7ed507'], '42161': ['0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8']}}
+2025-06-29 19:59:06,574 Checking google_keys.json for explicit credentials as part of auth process...
+2025-06-29 19:59:06,699 The message is publishing into pubsub
+2025-06-29 19:59:06,710 Commit thread is waking up
+2025-06-29 19:59:06,887 gRPC Publish took 0.17755842208862305 seconds.
+2025-06-29 19:59:06,903 The message is published into pubsub
